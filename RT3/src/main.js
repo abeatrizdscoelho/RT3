@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const calculos_1 = require("./Calculos/calculos");
+let soma = new calculos_1.Somador();
+let subtracao = new calculos_1.Subtrador();
+let multiplicacao = new calculos_1.Multiplicador();
+let divisao = new calculos_1.Divisor();
+console.log('CÁLCULOS');
+console.log(`A soma de 2 + 2 é: ${soma.calcular(2, 2)}`);
+console.log(`A subtração de 6 - 3 é: ${subtracao.calcular(6, 3)}`);
+console.log(`A multiplicação entre 2 e 2 é: ${multiplicacao.calcular(2, 2)}`);
+console.log(`A divisão entre 6 e 2 é: ${divisao.calcular(6, 2)}`);
